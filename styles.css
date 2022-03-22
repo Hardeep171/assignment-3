@@ -1,0 +1,42 @@
+body{
+    background-color: #1ff27e;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 130px;
+}
+
+.product__photo{
+    background-color: white;
+    height:464.5px;
+}
+.buy--btn{
+    background: indianred;
+    box-sizing: border-box;
+}
+
+.photo-main{
+    background-color: #83d134;
+}
+.varient{
+    display:flex;
+    list-style-type: none;
+}
+.price{
+    color: red;
+}
+.product__info{
+    padding-left: 10px;
+    background-color: white;
+}
+.v1:hover{
+     border: 1px solid black;
+     border-radius: 5px;
+}
+.v2{
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 5px;
+}
